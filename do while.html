@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>JavaScript Demo</title>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+  var actualpin = "7895";
+  var pin;
+  var count = 0;
+  do
+  {
+  pin = prompt("Enter your pin...", "Enter...");
+  count++;
+  }
+  while(pin != actualpin && count < 3);
+  if(pin = actualpin)
+  {
+  document.write("Welcome user");
+  }
+  else
+  {
+  document.write("Account locked");
+  }
+  </script>
+</body>
+</html>

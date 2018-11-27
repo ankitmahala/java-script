@@ -1,0 +1,29 @@
+<html>
+<head>
+ <script type="text/javascript">
+function myFunc()
+{
+ var a = 100;
+ try
+ {
+ var s = a.toUpperCase();
+alert("value of variable a is : " + a );
+}
+catch ( e )
+{
+alert("Error");
+}
+finally
+{
+alert("Finally block will always execute!");
+} 
+}
+</script>
+</head>
+<body>
+<p>click the following to call the function</p>
+<form>
+<input type="button" value="Click Me" onclick="myFunc()" />
+</form>
+ </body>
+</html>
