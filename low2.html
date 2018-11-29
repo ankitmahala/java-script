@@ -1,0 +1,26 @@
+ <html>
+<head>
+<title>JavaScript Demo</title>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+function convertToLowercase(str) {
+ var result;
+ for(var i = 0; i<str.length; i++){
+ var code = str.charCodeAt(i);
+ if(code > 64 && code <91)
+ {
+ result += str.CharCode(code + 32);
+ document.write("result is " + result );
+ }
+ else
+ {
+ result +=str.charAt(i);
+ }
+ }
+ return result;
+ }
+ </script>
+</body>
+</html>
